@@ -1,0 +1,27 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Acme&family=Varela+Round&display=swap');
+
+
+*{margin: 0;padding: 0;list-style-type: none;box-sizing: border-box;text-decoration: none;}
+font-family{@import  "/specimen/Montserrat"}
+body{display: grid; grid-template-columns: 70vw 30vw;grid-template-rows: 50vh 30vh 20vh;
+     grid-template-areas:"champions icono" "champions partido" "champions contactos" ; background-image:url(./images.jpg/FONDO.jpg);}
+    .champions{display: grid; height: 100vh; justify-content: center; align-items: center;margin-top: 15px;}
+     h1{font-family:'Acme', sans-serif;font-size: 80px;color: rgb(245, 224, 224);background-color: rgb(56, 102, 102);}
+    h3{font-family:'Varela Round', sans-serif;font-size: xx-large;color: rgb(20, 5, 116);}
+    nav{grid-area:icono;align-items: center; padding: 10px; background-color: rgb(67, 67, 245);}
+    .partido{grid-area:partido;justify-content: center;align-items: center;background-color: rgb(18, 145, 145); padding-top:80px;padding-left: 65px;}
+    p{font-size: x-large;}
+    .contactos{grid-area:contactos;background-color: rgb(67, 67, 245);padding-top: 40px;padding-left: 45px;}
+    .yo{padding-top: 35px; padding-top: 40px;padding-left: 70px;}
+    .champ{cursor: pointer;transition: all-easse-out 250ms;}
+    .champ:hover{padding: 10px;border:3px solid crimson;}
+    .avatar{cursor: pointer;transition: all-easse-out 250ms;}
+    .avatar:hover{padding: 10px; border: 3px solid rgb(25, 1, 90);}
+    .toni{cursor: pointer;transition: all-easse-out 250ms;}
+    .toni:hover{padding: 5px;color: brown;}
+    .fecha{cursor: pointer;transition: all-easse-out 250ms;}
+    .fecha:hover{padding: 5px;color: brown;}
+    .opinión{cursor: pointer;transition: all-easse-out 250ms;}
+    .opinión:hover{padding: 5px;color: brown;}
