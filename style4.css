@@ -1,1 +1,14 @@
 *{margin: 0;padding: 0;list-style-type: none;box-sizing: border-box;text-decoration: none;}
+body{background-color: rgb(51, 51, 252);} 
+.content{display: grid;grid-template-rows:70vh 30vh;
+grid-template-areas: "header" "footer";}
+h2{font-size: 4em;}
+input{width: 80vw;height: 40vh;font-size: 3em;}
+.opinion{width: 80vw; height: 40vh; margin: 10vw; background-color: aqua; font-size: 2em;}
+button{margin-left: 40%; margin-right: 40%; margin-top: 10%;margin-bottom: 10%; padding: 5px;background-color: aqua;}
+.interactive{cursor: pointer;}
+.interactive:hover{border: 3px solid crimson;padding: 8px;}
+header{grid-area: 'footer';}
+footer{grid-area:'header'; justify-items: center;}
+ul{display: flex; justify-content: space-evenly;}
+img{background-color: aqua;}

@@ -25,3 +25,9 @@ body{display: grid; grid-template-columns: 70vw 30vw;grid-template-rows: 50vh 30
     .fecha:hover{padding: 5px;color: brown;}
     .opinión{cursor: pointer;transition: all-easse-out 250ms;}
     .opinión:hover{padding: 5px;color: brown;}
+    @media screen and (max-width:1000px) {body{display: grid;grid-template-columns: 100vw; grid-template-rows: 35vh 40vh 20vh auto;
+      grid-template-areas: "champions" "icono" "partido" "contactos";}
+      .champions{align-items: start;}
+      h1{font-size: 3em;}
+     
+    }
