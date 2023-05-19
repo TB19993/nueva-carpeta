@@ -1,1 +1,9 @@
 *{margin: 0;padding:0 ;list-style-type: none;box-sizing: border-box;text-decoration: none;}
+body{width: 100vw;height: 100vh;background-color: darkblue;}
+h2{font-size: 4em; color: aqua;margin-left: 5vw;}
+h3{font-size: 3em;margin: 1em;}
+p{font-size: 2em;margin-top: 1em;margin-left: 2em;margin-right: 2em;}
+a{font-size: 2em;margin-left: 50vw;margin-top: 1em; color: brown;}
+img{background-color: brown;margin-left: 35vw;margin-bottom: 15px;}
+.interactive{cursor: pointer;}
+.interactive:hover{border: 3px solid crimson; width: 38px;height: 38px;}
