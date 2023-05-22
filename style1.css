@@ -8,7 +8,7 @@ font-family{@import  "/specimen/Montserrat"}
 body{display: grid; grid-template-columns: 70vw 30vw;grid-template-rows: 50vh 30vh 20vh;
      grid-template-areas:"champions icono" "champions partido" "champions contactos" ; background-image:url(./images.jpg/FONDO.jpg);}
     .champions{display: grid; height: 100vh; justify-content: center; align-items: center;margin-top: 15px;}
-     h1{font-family:'Acme', sans-serif;font-size: 80px;color: rgb(245, 224, 224);background-color: rgb(56, 102, 102);}
+     h1{font-family:'Acme', sans-serif;font-size: 80px;color: rgb(245, 224, 224);background-color: rgb(56, 102, 102); padding: 3px; padding-left: 2px;padding-right: 3px;}
     h3{font-family:'Varela Round', sans-serif;font-size: xx-large;color: rgb(20, 5, 116);}
     nav{grid-area:icono;align-items: center; padding: 10px; background-color: rgb(67, 67, 245);}
     .partido{grid-area:partido;justify-content: center;align-items: center;background-color: rgb(18, 145, 145); padding-top:80px;padding-left: 65px;}
@@ -25,7 +25,7 @@ body{display: grid; grid-template-columns: 70vw 30vw;grid-template-rows: 50vh 30
     .fecha:hover{padding: 5px;color: brown;}
     .opinión{cursor: pointer;transition: all-easse-out 250ms;}
     .opinión:hover{padding: 5px;color: brown;}
-    @media screen and (max-width:1000px) {body{display: grid;grid-template-columns: 100vw; grid-template-rows: 35vh 40vh 20vh auto;
+    @media screen and (max-width:1000px){body{display: grid;grid-template-columns: 100vw; grid-template-rows: 35vh 40vh 20vh auto;
       grid-template-areas: "champions" "icono" "partido" "contactos";}
       .champions{align-items: start;}
       h1{font-size: 3em;}

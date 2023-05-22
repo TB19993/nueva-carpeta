@@ -1,6 +1,27 @@
 *{margin: 0;padding: 0;list-style-type: none;box-sizing: border-box;text-decoration: none;}
-body{background-color: rgb(5, 5, 90);}
-h1{font-size: 45px;color: brown;}
-button{background-color: brown;}
+body{background-color: rgb(37, 37, 235);width: 100vw;height: 100vh;display: grid;
+    grid-template-columns: auto 30vw 30vw;grid-template-rows: 10vh auto 60vh;
+grid-template-areas: "header barce real" "estadisticas barce real" "opinion opinion opinion";}
+h1{font-size: 45px;color: brown; margin-top: 10px;}
+header{grid-area: header;}
+.estadisticas{grid-area: estadisticas;margin-top: auto;margin-left: 8px;margin-bottom: auto;}
+.barce{grid-area: barce;font-size: xx-small;margin: auto;}
+.real{grid-area: real;font-size: xx-small;margin: auto;}
+.escudo{margin-left: 25px;}
+h2{font-size: 2em;margin-bottom: 15px;}
+p{font-size: x-large;}
+.opinion{grid-area: opinion;margin-left: 10px; font-size: large;}
+ul{display: flex;}
+.resultado{font-size: 40px;}
+button{background-color: brown;width: 45px;height: 45px;margin-left: 80vw;}
 .boton{cursor: pointer;transition: all ease-out 250ms;}
-.boton:hover{padding: 5px; border: 3px solid rgb(56, 40, 43);}
+.boton:hover{padding: 8px; border:3px solid rgb(196, 11, 45);}
+@media screen and (max-width:1000px) {body{width: 100vw;height: auto; display: grid;grid-template-columns: 50vw 50vw;grid-template-rows:auto auto auto auto;
+    grid-template-areas: "header header" "estadisticas estadisticas" "barce real" "opinion opinion";}
+    h1{font-size: 7vw;}
+    h2{font-size: 5vw;}
+    .opinion{margin-top:5px;margin-right: 5px;}
+    .escudo{width: 120px;height: 120px;}
+    p{font-size: 3vw;}
+    
+}
